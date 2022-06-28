@@ -1,11 +1,18 @@
 import React from 'react'
-import Header from './components/Header'
-
+import Content from './components/content/Content'
+import Header from './components/Header/Header'
+import Text from './components/Text/Text'
+import {Container, Wrapper} from './style'
 function App() {
   return (
-    <div>
+    <Container className=''>
+      <Wrapper>
       <Header />
-    </div>
+      <Text />
+      </Wrapper>
+    
+      <Content />
+    </Container>
   )
 }
 
