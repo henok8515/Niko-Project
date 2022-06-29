@@ -1,13 +1,13 @@
 import { Button } from "@mui/material";
-import { Container, Intro } from "./style";
+import { Container } from "./style";
 
 function Text() {
   return (
     <Container>
-      <div className="flex items-center justify-center flex-col   ">
-        <Intro fontSize={90} fontWeight={900}>
+      <div className=" flex items-center justify-center flex-col   ">
+        <h1 className="text-8xl font-bold sm:text-white text-white font-mono text-center sm:text-6xl ">
           best welding & metal works
-        </Intro>
+        </h1>
         <Button
           style={{
             // borderRadius: 35,

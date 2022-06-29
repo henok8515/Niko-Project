@@ -20,10 +20,14 @@ function Content2() {
     <Container>
       <Description>
         <button>Welcom</button>
-        <Typography className="text-white" fontWeight={700} variant="h2">
+        <Typography
+          className="text-white text-center "
+          fontWeight={700}
+          variant="h2"
+        >
           DREAM IT, WE CAN BUILD IT
         </Typography>
-        <Typography className="text-white">
+        <Typography className="text-white text-center">
           There are many variations of passages of Lorem Ipsum but the majority
           is have suffered alteration in some form, or randomised words which
           don't look even slightly believable.

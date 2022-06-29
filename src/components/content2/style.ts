@@ -12,6 +12,7 @@ background-color: rgba(0, 0, 0, 0.5);
 height: 100%;
 width: 50%;
 display: flex;
+
 flex-direction: column;
 justify-content: space-around;
 text-align: start;
@@ -26,8 +27,9 @@ export const Card = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  transition: all 1s ease-in-out;
+  transition: all 1s ease;
   &:hover{
       background-color: #ce9233;
+      color: black;
   }
 `;
