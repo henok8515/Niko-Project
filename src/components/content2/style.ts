@@ -5,6 +5,9 @@ export const Container = styled.div`
   background-image: url(${Image});
   display: flex;
   justify-content: end;
+  @media (max-width: 690px) {
+justify-content: center;
+  }
 `;
 export const Description = styled.div`
 /* border: 2px solid red; */
@@ -16,6 +19,9 @@ display: flex;
 flex-direction: column;
 justify-content: space-around;
 text-align: start;
+@media (max-width: 690px) {
+width: 100%;
+  }
   
 `;
 export const Card = styled.div`
@@ -31,5 +37,9 @@ export const Card = styled.div`
   &:hover{
       background-color: #ce9233;
       color: black;
+  }
+  @media (max-width: 690px) {
+height: 100px;
+width: 100px;
   }
 `;

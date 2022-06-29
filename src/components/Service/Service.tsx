@@ -34,7 +34,7 @@ function Service() {
           </div>
           <Typography variant="h2">WHAT WE OFFER</Typography>
         </div>
-        <div className="mt-76 flex z-10 justify-around">
+        <div className="mt-76 flex z-10 justify-around sm:flex-col">
           {Data.map((data) => (
             <Card>
               <Image src={data.imgUrl} />

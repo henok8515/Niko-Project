@@ -29,7 +29,7 @@ function Team() {
   return (
     <Container>
       <div className=" text-center self-center w-60 text-lg border-2 mb-7 border-yellow-500  p-2">
-        our Services
+        All Hands Enginering
       </div>
       <Typography
         fontWeight={700}
@@ -39,7 +39,7 @@ function Team() {
       >
         Our Teams
       </Typography>
-      <div className="flex justify-center ">
+      <div className="flex justify-center sm:flex-col  ">
         {Data.map((data) => (
           <Card>
             <Img src={data.imgUrl} />

@@ -16,13 +16,13 @@ function Content() {
         <Image1 />
       </div>
       <Description>
-        <button className=" border-4 text-2xl border-yellow-700 w-2/4 p-2">
+        <button className="sm:self-center border-4 text-1xl border-yellow-700 w-2/4 p-2">
           Welcome to All hands
         </button>
         <strong>
-          <Typography variant="h3" fontWeight={600}>
+          <h1 className="sm:text-3xl text-5xl text-center font-mono  ">
             WE’RE COMMITTED TO QUALITY
-          </Typography>
+          </h1>
         </strong>
         <Typography className="text-gray-700" variant="h6">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do
@@ -46,9 +46,9 @@ function Content() {
           </div> */}
         </div>
         <Motto>
-          <Typography variant="h5" fontWeight={600} fontSize="25px">
+          <h1 className="sm:text-sm text-3xl font-black font-mono">
             WELDER PRO PROFESSIONAL WELDING COMPANY IN USA
-          </Typography>
+          </h1>
         </Motto>
       </Description>
     </Container>
