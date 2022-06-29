@@ -21,13 +21,10 @@ export const Buttons = styled.button`
   margin-top: 100px;
 `;
 export const Intro = styled(Typography)`
-  color: white;
-  align-self: center;
-  width: 70%;
-  text-transform: capitalize;
-  text-align: center;
-  font-family: '';
-  margin-top: 100px;
-  letter-spacing: 00;
+
   /* font-size: rem; */
+  /* @media (max-width: 480px) {
+    font-size: 10px;
+    color: red;
+  } */
 `;

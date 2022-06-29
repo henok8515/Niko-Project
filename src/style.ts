@@ -5,7 +5,7 @@ export const Container = styled.div`
   `;
 export const Wrapper = styled.div`
 background-image: url(${Image});
-  height: 150vh;
+  height: 100vh;
   background-size: cover;
   
 `;

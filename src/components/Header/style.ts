@@ -16,17 +16,26 @@ export const Container = styled.div`
   justify-content: space-between;
   z-index: 5;
   transition: all 1s ease;
+  @media (max-width: 669px) {
+  
+  }
 `;
 
 export const Logo = styled.div`
   margin: 0px 60px;
   flex: 2;
+  @media (max-width: 669px) {
+    margin: 0;
+  }
 `;  
 export const Navs = styled.div`
   display: flex;
   margin: 0px 40px;
   justify-content: space-around;
   flex: 1;
+  @media (max-width: 669px) {
+    display: none;
+  }
 
 
 `;
