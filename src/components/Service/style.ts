@@ -2,9 +2,13 @@ import styled from "styled-components";
 import image from '../../assets/bg-1.jpg'
 import image1 from '../../assets/bg-2.jpg'
 export const Container = styled.div`
-  height: 150vh;
+
   display: flex;
   flex-direction: column;
+  @media (max-width: 690px) {
+justify-content: center;
+align-items: center;
+  }
 `;
 export const Services = styled.div`
 flex: 1.5;
@@ -31,9 +35,17 @@ flex-direction: column;
 width: 29%;
 margin: 10px 20px;
 
+@media (max-width: 690px) {
+width: 90%;
+height: 400px;
+  }
 `;
 export const Image = styled.img`
   flex: 1;
+  @media (max-width: 690px) {
+height: 50%;
+object-fit: cover;
+  }
 `;
 export const Description = styled.div`
 flex: 1;

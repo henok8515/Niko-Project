@@ -7,6 +7,9 @@ export const Container = styled.div`
 padding-top: 100px;
   background-image: url(${Image});
   background-size: cover;
+  @media (max-width: 690px) {
+height: auto;
+  }
 `;
 export const Card = styled.div`
   height: 500px;
@@ -15,6 +18,9 @@ export const Card = styled.div`
 z-index: 1;
 position: relative;
 margin-bottom: 100px;
+@media (max-width: 690px) {
+width: 100%;
+  }
 `;
 export const Img = styled.img`
   height: 100%;
